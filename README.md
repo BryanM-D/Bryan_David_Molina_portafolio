@@ -24,6 +24,9 @@ Tailwind CSS 4.x
 Lucide React para iconografía
 Arquitectura / Diseño Atómico
 src/
+
+
+
 ├── app/
 │   ├── globals.css
 │   ├── layout.tsx
