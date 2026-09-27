@@ -60,21 +60,6 @@ src/
     └── portfolio.ts
 ```
 
-## Personalización obligatoria antes de entregar
-
-Abre `src/data/portfolio.ts` y reemplaza:
-
-1. `Tu Nombre`.
-2. Título profesional/personal.
-3. Perfil.
-4. Ciudad, teléfono y correo.
-5. Enlaces reales de GitHub y LinkedIn.
-6. Porcentajes de idiomas y lenguajes.
-7. Formación académica.
-8. Proyectos y enlaces reales.
-
-Luego reemplaza `public/profile-placeholder.svg` por una fotografía real. Puedes usar JPG/PNG/WebP; si cambias el nombre del archivo, actualiza `profileImage` en `src/data/portfolio.ts`.
-
 ## Instalación
 
 ```bash
@@ -108,7 +93,7 @@ git init
 git add .
 git commit -m "feat: initial portfolio implementation"
 git branch -M main
-git remote add origin URL_DE_TU_REPOSITORIO
+git remote add origin https://github.com/BryanM-D/Bryan_David_Molina_portafolio.git
 git push -u origin main
 ```
 

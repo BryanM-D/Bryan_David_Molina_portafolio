@@ -1,8 +1,7 @@
 # Guía corta para entregar
 
 ## 1. Personaliza
-Edita `src/data/portfolio.ts` y sustituye la imagen de perfil.
-
+node -v
 ## 2. Prueba
 ```bash
 npm install

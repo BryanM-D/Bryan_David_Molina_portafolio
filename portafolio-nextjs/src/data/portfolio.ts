@@ -5,16 +5,15 @@ import type { EducationItem, KnowledgeItem, ProjectItem, SkillLevel } from "@/ty
  * Cambia nombre, foto, contacto, porcentajes, educación, proyectos y enlaces.
  */
 export const personal = {
-  name: "Tu Nombre",
-  title: "Estudiante de Ingeniería / Desarrollador Frontend",
+  name: "Bryan David Molina Dominguez",
+  title: "Estudiante de Ingeniería en sistemas / Desarrollador Frontend",
   profile:
     "Estudiante con interés en desarrollo web, diseño de interfaces y construcción de experiencias digitales claras, accesibles y funcionales. Me gusta convertir ideas en productos web bien estructurados y fáciles de usar.",
-  city: "Medellín, Colombia",
-  phone: "+57 300 000 0000",
-  email: "correo@ejemplo.com",
-  profileImage: "/profile-placeholder.svg",
-  github: "https://github.com/",
-  linkedin: "https://www.linkedin.com/",
+  city: "La estrella, Colombia",
+  phone: "+57 300 679 5252",
+  email: "bryan.molina@udea.edu.co",
+  profileImage: "/profile-placeholder.jpeg",
+  github: "https://github.com/BryanM-D",
 };
 
 export const languages: SkillLevel[] = [
@@ -73,47 +72,46 @@ export const knowledge: KnowledgeItem[] = [
 
 export const education: EducationItem[] = [
   {
-    institution: "Universidad / Institución",
+    institution: "Universidad de Antioquia",
     period: "2023 — Actualidad",
-    degree: "Ingeniería / Programa académico",
+    degree: "Ingeniería en sistemas",
     description:
       "Formación en fundamentos de ingeniería, programación, desarrollo de software y solución estructurada de problemas.",
   },
   {
-    institution: "Institución educativa",
+    institution: "Institución educativa la camila",
     period: "2017 — 2022",
     degree: "Bachiller académico",
     description:
       "Formación general con énfasis en pensamiento lógico, trabajo colaborativo y habilidades comunicativas.",
   },
 ];
-
 export const projects: ProjectItem[] = [
   {
-    title: "Dashboard académico",
-    description: "Panel responsive para visualizar indicadores y progreso de actividades.",
-    details:
-      "Proyecto construido con componentes reutilizables y una jerarquía visual orientada a facilitar la lectura de indicadores. Incluye tarjetas, estados y navegación adaptable.",
-    image: "/projects/project-dashboard.svg",
-    technologies: ["Next.js", "TypeScript", "Tailwind"],
-    repository: "https://github.com/",
-  },
-  {
-    title: "Landing de servicios",
-    description: "Sitio promocional con enfoque en experiencia de usuario y conversión.",
-    details:
-      "Landing page con secciones modulares, llamados a la acción y comportamiento responsive. La estructura permite reutilizar componentes para nuevos productos o servicios.",
+    title: "Portafolio Personal",
+    description:
+      "Portafolio desarrollado con Next.js y TypeScript para presentar experiencia, habilidades y proyectos.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     image: "/projects/project-landing.svg",
-    technologies: ["React", "Tailwind", "UX"],
-    repository: "https://github.com/",
+    repository: "https://github.com/BryanM-D/Bryan_David_Molina_portafolio",
+    demo: "",
   },
   {
-    title: "Gestor de tareas",
-    description: "Aplicación para organizar pendientes por prioridad y estado.",
-    details:
-      "Aplicación interactiva que permite presentar tareas de manera visual y ordenada. El proyecto demuestra manejo de estado, componentes reutilizables y diseño orientado a acciones.",
+    title: "Dashboard Power BI",
+    description:
+      "Tablero para seguimiento de objetivos, actividades y cronogramas de ejecución.",
+    technologies: ["Power BI", "Excel"],
+    image: "/projects/project-dashboard.svg",
+    repository: "",
+    demo: "",
+  },
+  {
+    title: "Motor Scoring Crediticio",
+    description:
+      "Proyecto académico para análisis de cobertura, pruebas unitarias y métricas de calidad.",
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "JaCoCo"],
     image: "/projects/project-tasks.svg",
-    technologies: ["React", "TypeScript", "UI"],
-    repository: "https://github.com/",
+    repository: "",
+    demo: "",
   },
 ];
