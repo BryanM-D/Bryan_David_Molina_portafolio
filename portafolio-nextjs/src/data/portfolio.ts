@@ -1,6 +1,5 @@
 import type { EducationItem, KnowledgeItem, ProjectItem, SkillLevel } from "@/types/portfolio";
 
-
 export const personal = {
   name: "Bryan David Molina Dominguez",
   title: "Estudiante de Ingeniería en sistemas / Desarrollador Frontend",
@@ -37,32 +36,38 @@ export const extraSkills = [
 export const knowledge: KnowledgeItem[] = [
   {
     title: "Frontend moderno",
-    description: "Construcción de interfaces con React, Next.js, TypeScript y componentes reutilizables.",
+    description:
+      "Construcción de interfaces con React, Next.js, TypeScript y componentes reutilizables.",
     icon: "code",
   },
   {
     title: "Diseño responsive",
-    description: "Maquetación adaptable a escritorio, tableta y móvil mediante Tailwind CSS.",
+    description:
+      "Maquetación adaptable a escritorio, tableta y móvil mediante Tailwind CSS.",
     icon: "layout",
   },
   {
     title: "Datos y APIs",
-    description: "Consumo y organización de datos para integrarlos de forma clara en aplicaciones web.",
+    description:
+      "Consumo y organización de datos para integrarlos de forma clara en aplicaciones web.",
     icon: "database",
   },
   {
     title: "Control de versiones",
-    description: "Flujo de trabajo con Git y GitHub para mantener cambios trazables y ordenados.",
+    description:
+      "Flujo de trabajo con Git y GitHub para mantener cambios trazables y ordenados.",
     icon: "git",
   },
   {
     title: "Despliegue",
-    description: "Preparación de proyectos para despliegue continuo y publicación en Vercel.",
+    description:
+      "Preparación de proyectos para despliegue continuo y publicación en Vercel.",
     icon: "cloud",
   },
   {
     title: "Experiencia de usuario",
-    description: "Atención a jerarquía visual, accesibilidad, interacción y detalles de interfaz.",
+    description:
+      "Atención a jerarquía visual, accesibilidad, interacción y detalles de interfaz.",
     icon: "sparkles",
   },
 ];
@@ -83,20 +88,26 @@ export const education: EducationItem[] = [
       "Formación general con énfasis en pensamiento lógico, trabajo colaborativo y habilidades comunicativas.",
   },
 ];
+
 export const projects: ProjectItem[] = [
   {
     title: "Portafolio Personal",
     description:
       "Portafolio desarrollado con Next.js y TypeScript para presentar experiencia, habilidades y proyectos.",
+    details:
+      "Aplicación web personal desarrollada con Next.js, TypeScript y Tailwind CSS. Incluye información académica, habilidades, conocimientos y proyectos realizados.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     image: "/projects/project-landing.svg",
-    repository: "https://github.com/BryanM-D/Bryan_David_Molina_portafolio",
+    repository:
+      "https://github.com/BryanM-D/Bryan_David_Molina_portafolio",
     demo: "",
   },
   {
     title: "Dashboard Power BI",
     description:
       "Tablero para seguimiento de objetivos, actividades y cronogramas de ejecución.",
+    details:
+      "Dashboard desarrollado para organizar y visualizar información relacionada con objetivos, actividades y cronogramas, facilitando el seguimiento de los resultados.",
     technologies: ["Power BI", "Excel"],
     image: "/projects/project-dashboard.svg",
     repository: "",
@@ -106,6 +117,8 @@ export const projects: ProjectItem[] = [
     title: "Motor Scoring Crediticio",
     description:
       "Proyecto académico para análisis de cobertura, pruebas unitarias y métricas de calidad.",
+    details:
+      "Proyecto académico desarrollado para trabajar con un motor de scoring crediticio, aplicando pruebas unitarias, análisis de cobertura y herramientas de calidad de software.",
     technologies: ["Java", "Spring Boot", "PostgreSQL", "JaCoCo"],
     image: "/projects/project-tasks.svg",
     repository: "",
