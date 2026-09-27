@@ -12,7 +12,6 @@ export function Footer() {
         </div>
         <div className="flex gap-3">
           <a href={personal.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-amber-400 hover:text-slate-950"><Github size={18} /></a>
-          <a href={personal.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-amber-400 hover:text-slate-950"><Linkedin size={18} /></a>
           <a href={`mailto:${personal.email}`} aria-label="Correo" className="grid size-10 place-items-center rounded-full bg-white/10 hover:bg-amber-400 hover:text-slate-950"><Mail size={18} /></a>
         </div>
       </div>
