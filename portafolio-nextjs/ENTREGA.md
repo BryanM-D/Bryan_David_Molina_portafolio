@@ -17,12 +17,3 @@ Nombre requerido del repositorio:
 ## 4. Despliega
 Importa el repositorio en Vercel y configura:
 `nombre-apellidos.vercel.app`
-
-## 5. Revisa antes del 27/09/2026 - 23:59
-- ortografía
-- enlaces
-- responsividad
-- rama `main`
-- último commit
-- colaborador/equipo del profesor
-- enlace Vercel en el repositorio
