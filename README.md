@@ -1,47 +1,94 @@
-Portafolio personal — Proyecto Evaluativo 1
-Proyecto de hoja de vida / portafolio desarrollado con Next.js + React + TypeScript + Tailwind CSS , preparado para implementación en Vercel .
+# Portafolio Personal - Proyecto Evaluativo 1
 
-Objetivo académico
-El proyecto cubre los requisitos solicitados en el Proyecto Evaluativo 1 de Ingeniería Web:
+Proyecto de hoja de vida y portafolio profesional desarrollado con **Next.js**, **React**, **TypeScript** y **Tailwind CSS**, preparado para despliegue en **Vercel**.
 
-Menú lateral izquierdo con información personal, contacto, idiomas, lenguajes y habilidades extra.
-Contenido central con desplazamiento vertical.
-Perfil con botón que abre un diálogo.
-Sección de conocimientos mediante tarjetas reutilizables.
-Sección de educación mediante tarjetas reutilizables.
-Portafolio con scroll horizontal y modal de detalle por proyecto.
-Pie de página personalizado.
-Menú fijo derecho con enlaces a GitHub y LinkedIn.
-Diseño responsive.
-Uso de Tailwind CSS.
-Arquitectura basada en Diseño Atómico.
-Más de 6 componentes reutilizables.
-Tecnologías
-Next.js 16.x
-React 19
-Mecanografiado
-Tailwind CSS 4.x
-Lucide React para iconografía
-Arquitectura / Diseño Atómico
+## 👨‍💻 Autor
+
+**Bryan David Molina Domínguez**
+
+- GitHub: [BryanM-D](https://github.com/BryanM-D)
+- Correo: bryan.molina@udea.edu.co
+- Ciudad: La Estrella, Colombia
+
+---
+
+# Objetivo Académico
+
+Este proyecto cumple con los requisitos establecidos para el **Proyecto Evaluativo 1 de Ingeniería Web**.
+
+### Funcionalidades implementadas
+
+✅ Menú lateral izquierdo con información personal.
+
+✅ Información de contacto.
+
+✅ Idiomas y niveles de dominio.
+
+✅ Lenguajes de programación.
+
+✅ Habilidades complementarias.
+
+✅ Contenido principal con desplazamiento vertical.
+
+✅ Perfil profesional con ventana modal informativa.
+
+✅ Sección de conocimientos mediante componentes reutilizables.
+
+✅ Sección de educación mediante componentes reutilizables.
+
+✅ Portafolio de proyectos con scroll horizontal.
+
+✅ Modal para visualizar información detallada de cada proyecto.
+
+✅ Pie de página personalizado.
+
+✅ Barra lateral de redes sociales.
+
+✅ Diseño responsive para dispositivos móviles, tabletas y escritorio.
+
+✅ Implementación con Tailwind CSS.
+
+✅ Arquitectura basada en Atomic Design.
+
+✅ Más de 6 componentes reutilizables.
+
+---
+
+# 🛠 Tecnologías Utilizadas
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Lucide React
+- Git y GitHub
+- Vercel
+
+---
+
+# 🏗 Arquitectura del Proyecto
+
+```text
 src/
-
-
-
+│
 ├── app/
 │   ├── globals.css
 │   ├── layout.tsx
 │   └── page.tsx
+│
 ├── components/
 │   ├── atoms/
 │   │   ├── IconButton.tsx
 │   │   ├── ProgressBar.tsx
 │   │   ├── SectionTitle.tsx
 │   │   └── Tag.tsx
+│   │
 │   ├── molecules/
 │   │   ├── EducationCard.tsx
 │   │   ├── KnowledgeCard.tsx
 │   │   ├── Modal.tsx
 │   │   └── ProjectCard.tsx
+│   │
 │   └── organisms/
 │       ├── EducationSection.tsx
 │       ├── Footer.tsx
@@ -50,70 +97,149 @@ src/
 │       ├── PortfolioSection.tsx
 │       ├── Sidebar.tsx
 │       └── SocialRail.tsx
+│
 ├── data/
 │   └── portfolio.ts
+│
 └── types/
     └── portfolio.ts
-Instalación
+```
+
+---
+
+# ⚙️ Instalación
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/BryanM-D/Bryan_David_Molina_portafolio.git
+```
+
+Ingresa al proyecto:
+
+```bash
+cd Bryan_David_Molina_portafolio/portafolio-nextjs
+```
+
+Instala las dependencias:
+
+```bash
 npm install
+```
+
+Ejecuta el proyecto:
+
+```bash
 npm run dev
-Abre http://localhost:3000.
+```
 
-Validación
+Abrir en el navegador:
+
+```text
+http://localhost:3000
+```
+
+---
+
+# ✅ Validación del Proyecto
+
+Antes de entregar o desplegar el proyecto, ejecutar:
+
+```bash
 npm run lint
+```
+
+```bash
 npm run build
-No entregues el proyecto si alguno de esos comandos falla.
+```
 
-Git y GitHub
-Según el enunciado, crea el repositorio en la organización de la clase con el formato:
+El proyecto no debe presentar errores en ninguno de estos comandos.
 
-nombre-apellidos-portafolio
-Flujo sugerido:
+---
 
+# 🌿 Flujo de Trabajo con Git
+
+Inicialización del repositorio:
+
+```bash
 git init
 git add .
 git commit -m "feat: initial portfolio implementation"
+
 git branch -M main
+
 git remote add origin https://github.com/BryanM-D/Bryan_David_Molina_portafolio.git
+
 git push -u origin main
-Realiza compromisos adicionales durante el proceso. El profesor calificará el último compromiso mainrealizado antes de la fecha límite.
+```
 
-Despliegue en Vercel
-Ingresa a Vercel e inicia sesión con GitHub.
-Importa el repositorio.
-Vercel detectará Next.js automáticamente.
-Despliegue de Pulsa .
-Configure el dominio del proyecto con el formato solicitado:
-nombre-apellidos.vercel.app
-Agrega ese enlace al repositorio y entrégalo según las instrucciones del curso.
-Lista de verificación de entrega
-Datos personales reales.
-Fotografía real.
-GitHub real.
-LinkedIn real.
-Educación actualizada.
-Al menos tres proyectos propios o académicos.
-Revisar ortografía (la rúbrica penaliza cada error).
-Probar versión móvil, tableta y escritorio.
-Ejecutar npm run lint.
-Ejecutar npm run build.
-Repositorio con nombre correcto.
-Profesor agregado como colaborador/equipo.
-Despliegue final en Vercel.
-URL de Vercel agregada al repositorio.
-Último compromiso en mainantes de la fecha de entrega.
-Ideas para puntos de creatividad
-Ya incluido:
+Se recomienda realizar commits frecuentes durante el desarrollo.
 
-Microinteracciones flotan.
-Modal accesible con cierre por Escape.
-Desplazamiento horizontal con scroll-snap.
-Diseño responsive.
-Jerarquía visual propia.
-Opcionales para ampliar:
+---
 
-Modo oscuro.
-Filtro de proyectos.
-Animaciones al entrar en la ventana gráfica.
-Descarga de CV en PDF.
-Formulario de contacto.
+# 🚀 Despliegue en Vercel
+
+1. Iniciar sesión en Vercel utilizando GitHub.
+2. Importar el repositorio.
+3. Vercel detectará automáticamente la configuración de Next.js.
+4. Ejecutar el despliegue.
+5. Configurar el dominio del proyecto.
+
+Ejemplo:
+
+```text
+bryan-david-molina.vercel.app
+```
+
+---
+
+# 📋 Lista de Verificación de Entrega
+
+- [ ] Datos personales actualizados.
+- [ ] Fotografía profesional.
+- [ ] Cuenta de GitHub actualizada.
+- [ ] Perfil de LinkedIn actualizado.
+- [ ] Formación académica actualizada.
+- [ ] Mínimo tres proyectos propios o académicos.
+- [ ] Validación ortográfica completa.
+- [ ] Pruebas en móvil.
+- [ ] Pruebas en tableta.
+- [ ] Pruebas en escritorio.
+- [ ] Ejecutar `npm run lint`.
+- [ ] Ejecutar `npm run build`.
+- [ ] Repositorio nombrado correctamente.
+- [ ] Profesor agregado como colaborador (si aplica).
+- [ ] Despliegue en Vercel funcionando.
+- [ ] URL del despliegue incluida en el repositorio.
+- [ ] Último commit realizado antes de la fecha de entrega.
+
+---
+
+# ✨ Funcionalidades de Creatividad
+
+### Implementadas
+
+- Microinteracciones visuales.
+- Modal accesible.
+- Cierre mediante tecla ESC.
+- Scroll horizontal con scroll-snap.
+- Diseño responsive.
+- Jerarquía visual personalizada.
+
+### Mejoras Futuras
+
+- Modo oscuro.
+- Filtro dinámico de proyectos.
+- Animaciones al entrar en pantalla.
+- Descarga de CV en PDF.
+- Formulario de contacto.
+- Integración con backend.
+- Blog personal.
+
+---
+
+# 📄 Licencia
+
+Proyecto desarrollado con fines académicos para la asignatura de Ingeniería Web.
+
+© 2026 Bryan David Molina Domínguez.
