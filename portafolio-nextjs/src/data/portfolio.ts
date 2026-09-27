@@ -1,9 +1,6 @@
 import type { EducationItem, KnowledgeItem, ProjectItem, SkillLevel } from "@/types/portfolio";
 
-/**
- * Edita SOLO este archivo para personalizar la hoja de vida.
- * Cambia nombre, foto, contacto, porcentajes, educación, proyectos y enlaces.
- */
+
 export const personal = {
   name: "Bryan David Molina Dominguez",
   title: "Estudiante de Ingeniería en sistemas / Desarrollador Frontend",
